@@ -1,0 +1,81 @@
+.alert-notifications-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.alert-notifications-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 70px;
+  min-width: 24px;
+  margin-right: 20px;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+
+.message-container {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.message-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.message-description {
+  color: #64748b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notifications-card {
+    width: 85%;
+  }
+  .heading {
+    font-size: 42px;
+  }
+}
